@@ -1,30 +1,30 @@
 /**
- * @name ShowHiddenChannels
- * @displayName Show Hidden Channels (SHC)
- * @version 0.1.3
- * @author JustOptimize (Oggetto)
- * @authorId 347419615007080453
- * @source https://github.com/JustOptimize/return-ShowHiddenChannels
- * @updateUrl https://raw.githubusercontent.com/JustOptimize/return-ShowHiddenChannels/main/ShowHiddenChannels.plugin.js
+ * @name ShowHiddenChannelsnw
+ * @displayName Show Hidden Channels By NW
+ * @version 0.1.4
+ * @author Night Wolf
+ * @authorId 625664088529436683
+ * @source https://github.com/NightWolf125/ShowHiddennw
+ * @updateUrl https://raw.githubusercontent.com/NightWolf125/ShowHiddennw/main/ShowHiddenChannels.plugin.js
 */
 
 module.exports = (() => {
 
   const config = {
     info: {
-      name: "ShowHiddenChannels",
+      name: "ShowHiddenChannelsnw",
       authors: [{
-        name: "JustOptimize (Oggetto)",
+        name: "Night Wolf",
       }],
       description: "A plugin which displays all hidden Channels, which can't be accessed due to Role Restrictions, this won't allow you to read them (impossible).",
-      version: "0.1.3",
-      github: "https://github.com/JustOptimize/return-ShowHiddenChannels",
-      github_raw: "https://raw.githubusercontent.com/JustOptimize/return-ShowHiddenChannels/main/ShowHiddenChannels.plugin.js"
+      version: "0.1.4",
+      github: "https://github.com/NightWolf125/ShowHiddennw",
+      github_raw: "https://raw.githubusercontent.com/NightWolf125/ShowHiddennw/main/ShowHiddenChannels.plugin.js"
     },
 
     changelog: [
       {
-        title: "v0.1.3",
+        title: "v0.1.4",
         items: [
           "Added information about forums on the \"This is a hidden channel\" page.",
         ]
