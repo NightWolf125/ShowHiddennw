@@ -5,7 +5,7 @@
  * @author Night Wolf
  * @authorId 625664088529436683
  * @source https://github.com/NightWolf125/ShowHiddennw
- * @updateUrl https://raw.githubusercontent.com/NightWolf125/ShowHiddennw/main/ShowHiddenChannels.plugin.js
+ * @updateUrl https://raw.githubusercontent.com/NightWolf125/ShowHiddennw/main/ShowHiddenChannelsnw.plugin.js
 */
 
 module.exports = (() => {
@@ -19,7 +19,7 @@ module.exports = (() => {
       description: "A plugin which displays all hidden Channels, which can't be accessed due to Role Restrictions, this won't allow you to read them (impossible).",
       version: "0.1.4",
       github: "https://github.com/NightWolf125/ShowHiddennw",
-      github_raw: "https://raw.githubusercontent.com/NightWolf125/ShowHiddennw/main/ShowHiddenChannels.plugin.js"
+      github_raw: "https://raw.githubusercontent.com/NightWolf125/ShowHiddennw/main/ShowHiddenChannelsnw.plugin.js"
     },
 
     changelog: [
@@ -87,7 +87,7 @@ module.exports = (() => {
       }
     ],
 
-    main: "ShowHiddenChannels.plugin.js",
+    main: "ShowHiddenChannelsnw.plugin.js",
   };
 
   return !window.hasOwnProperty("ZeresPluginLibrary")
@@ -336,7 +336,7 @@ module.exports = (() => {
       }
     }
 
-    return class ShowHiddenChannels extends Plugin {
+    return class ShowHiddenChannelsnw extends Plugin {
       constructor() {
         super();
         this.processContextMenu = this.processContextMenu.bind(this);
